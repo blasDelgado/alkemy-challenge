@@ -32,6 +32,7 @@ class UsersService {
     }
   }
 
+  // Esto no funciona ya que se le debe administrar una key de sendgrid que no está por razones de seguiridad. Lo probé dando la key y funciona.
   async sendEmail(email) {
     const msg = {
       to: email,

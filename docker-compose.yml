@@ -14,7 +14,7 @@ services:
       - DB_USER=root
       - DB_PASSWORD=root
       - TOKEN_CRYPT=secret
-      - SENDGRID_KEY=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
+      - SENDGRID_KEY=SENDGRID_KEY
       - SENDGRID_EMAIL=blasdelgado10@gmail.com
     links:
       - bdd-mysql
